@@ -1,5 +1,5 @@
-function rysujChoinkę () {
-for ( var levels = 0 ; levels < 30 ; levels++) {
+function rysujChoinkę (targetNumber) {
+for ( var levels = 0 ; levels < targetNumber ; levels++) {
         star =" ";
 
         for ( var n = 0 ; n < 2 * levels - 1 ; n++) {
@@ -10,4 +10,4 @@ for ( var levels = 0 ; levels < 30 ; levels++) {
     }
 }
 
-rysujChoinkę()
+rysujChoinkę(8)
